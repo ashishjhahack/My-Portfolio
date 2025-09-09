@@ -6,8 +6,16 @@
 }
 
 .hero img {
-    margin-top: 150px;
+  margin-top: 150px;
+  width: 250px;        /* Set width */
+  height: 250px;       /* Set height */
+  border-radius: 50%;  /* Make it round */
+  object-fit: cover;   /* Crop nicely */
+  display: block;      /* Optional for centering */
+  margin-left: auto;   /* Optional for centering */
+  margin-right: auto;  /* Optional for centering */
 }
+
 
 .hero h1 {
     text-align: center;
